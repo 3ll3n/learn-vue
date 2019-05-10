@@ -6,7 +6,7 @@
           <category></category>
         </div>
       </section>
-      <app-footer>Footer</app-footer>
+      <app-footer></app-footer>
     </div>
 </template>
 
