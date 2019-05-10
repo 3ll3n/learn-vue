@@ -14,7 +14,11 @@ const configs = {
             },
             {
               test: /\.vue$/,
-              loader: 'vue-loader'
+              loader: 'vue-loader',
+              options: {
+                css: 'css-loader',
+                'sass': 'css-loader|sass-loader'
+              }
             },
             {
               test: /\.js$/,
