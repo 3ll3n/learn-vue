@@ -1,6 +1,6 @@
 <template>
   <div class="columns">
-    <div class="column is-one-third" v-for="(post) in posts" v-bind:key="post.id">
+    <div class="column is-one-third" v-for="post in posts" v-bind:key="post.id">
       <div class="card">
         <div class="card-content">
           <h3>{{ post.title }}</h3>
